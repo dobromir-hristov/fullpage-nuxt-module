@@ -1,0 +1,11 @@
+{
+  "name": "fullpage-nuxt-module",
+  "version": "1.0.0",
+  "description": "Add fullpage to your nuxt website",
+  "main": "src/index.js",
+  "author": "Dobromir Hristov",
+  "license": "MIT",
+  "dependencies": {
+    "vue-fullpage.js": "^0.1.5"
+  }
+}
