@@ -1,4 +1,13 @@
 const Vue = require('vue')
-const FullPage = require('fullpage-nuxt-module/src/plugins/FullpageSSR.js')
 
-Vue.component('full-page', FullPage)
+Vue.component('full-page', {
+  name: 'FullPage',
+  props: {
+    options: Object
+  },
+  render (h) {
+    return h('div', {
+      class: 'FullPage-SSR'
+    }, this.$slots.default)
+  }
+})
