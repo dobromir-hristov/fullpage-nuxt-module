@@ -6,7 +6,7 @@
   "author": "Dobromir Hristov",
   "license": "MIT",
   "dependencies": {
-    "fullpage.js": "^3.0.9",
+    "fullpage.js": "^4.0.5",
     "vue-fullpage.js": "^0.1.6"
   },
   "devDependencies": {
